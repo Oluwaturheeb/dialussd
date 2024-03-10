@@ -1,6 +1,6 @@
 <!-- AndroidManifest.xml -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.devtee.dialussd">
-
+  package="com.devtee.dialussd">
+  <uses-permission android:name="android.permission.CALL_PHONE" />
 </manifest>
