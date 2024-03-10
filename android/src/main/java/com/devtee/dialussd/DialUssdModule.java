@@ -33,7 +33,7 @@ public class DialUssdModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void dialUssd(String ussdCode, final Promise promise) {
+  public void send(String ussdCode, final Promise promise) {
     TelephonyManager telephonyManager = (TelephonyManager) this.reactContext
         .getSystemService(Context.TELEPHONY_SERVICE);
     if (telephonyManager != null) {

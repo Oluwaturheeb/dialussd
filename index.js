@@ -1,7 +1,11 @@
-// main index.js
-
 import { NativeModules } from 'react-native';
 
-const { DialUssd } = NativeModules;
+const Module = NativeModules;
+
+let DialUssd = {
+  send (code) {
+    return Module.DialUssd.send(code);
+  }
+};
 
 export default DialUssd;

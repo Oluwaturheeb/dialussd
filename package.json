@@ -12,17 +12,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "react-native",
+    "ussd",
+    "react-native-dialussd",
+    "react-native-ussd",
+    "react-native-android-ussd",
+    "android",
+    "dialussd"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/dialussd.git",
-    "baseUrl": "https://github.com/github_account/dialussd"
+    "url": "git+https://github.com/Oluwaturheeb/react-native-dialussd.git"
   },
-  "keywords": [
-    "react-native"
-  ],
-  "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+  "author": "oluwaturheeb <oluwaturheeb@gmail.com> (https://github.com/Oluwaturheeb)",
+  "bugs": {
+    "url": "https://github.com/Oluwaturheeb/react-native-dialussd/issues"
+  },
+  "homepage": "https://github.com/Oluwaturheeb/react-native-dialussd#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",

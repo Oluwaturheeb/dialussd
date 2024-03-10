@@ -2,7 +2,7 @@
 
 ## Getting started
 
-`$ npm install dialussd --save`
+`$ yarn add dialussd`
 
 ### Mostly automatic installation
 
@@ -12,6 +12,9 @@
 ```javascript
 import DialUssd from 'dialussd';
 
-// TODO: What to do with the module?
-DialUssd;
+let const dial = async (codeToDial) => {
+  let resp = await DialUssd.send(codeToDial);
+
+  // handle the respose 
+}
 ```
